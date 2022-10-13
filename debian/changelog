@@ -1,0 +1,50 @@
+node-es6-iterator (2.0.3-3) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop nodejs dependency
+
+ -- Yadd <yadd@debian.org>  Sat, 13 Nov 2021 12:14:50 +0100
+
+node-es6-iterator (2.0.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Remove autopkgtest: not really related to this package
+    (and yarnpkg is not in unstable)
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 30 Oct 2020 22:56:28 +0100
+
+node-es6-iterator (2.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Fix copyright format url
+  * New upstream version 2.0.3
+  * Use pkg-js-tools auto install
+  * Update copyright
+  * Enable upstream test during autopkgtest only
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 30 Dec 2019 09:12:07 +0100
+
+node-es6-iterator (2.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #875745)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 14 Sep 2017 14:42:26 +0530
